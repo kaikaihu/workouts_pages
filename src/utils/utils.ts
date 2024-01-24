@@ -257,14 +257,14 @@ const typeForRun = (run: Activity): string => {
         return 'Half Marathon';
       }
       return 'Trail Run';
-    // case 'Track Run':
-    //   if (distance >= 40) {
-    //     return 'Full Marathon';
-    //   }
-    //   else if (distance > 20) {
-    //     return 'Half Marathon';
-    //   }
-    //   return 'Track Run';
+    case 'Track Run':
+      if (distance >= 40) {
+         return 'Full Marathon';
+       }
+       else if (distance > 20) {
+         return 'Half Marathon';
+       }
+       return 'Track Run';
     case 'Ride':
       return 'Ride';
     case 'Indoor Ride':
