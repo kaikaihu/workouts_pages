@@ -60,11 +60,12 @@ const HALF_MARATHON_RUN_TITLE = IS_CHINESE ? '半程马拉松' : 'Half Marathon'
 const RUN_TITLE = IS_CHINESE ? '跑步' : 'Run';
 const TRAIL_RUN_TITLE = IS_CHINESE ? '越野跑' : 'Trail Run';
 const SWIM_TITLE = IS_CHINESE ? '游泳' : 'Swim';
-
+const TRACK_RUN_TITLE = IS_CHINESE ? '操场跑' : 'Track Run';
 const RIDE_TITLE = IS_CHINESE ? '骑行' : 'Ride';
 const INDOOR_RIDE_TITLE = IS_CHINESE ? '室内骑行' : 'Indoor Ride';
 const VIRTUAL_RIDE_TITLE = IS_CHINESE ? '虚拟骑行' : 'Virtual Ride';
 const HIKE_TITLE = IS_CHINESE ? '徒步' : 'Hike';
+const WALK_TITLE = IS_CHINESE ? '走路' : 'Walk';
 const ROWING_TITLE = IS_CHINESE ? '划船' : 'Rowing';
 const KAYAKING_TITLE = IS_CHINESE ? '皮划艇' : 'Kayaking';
 const SNOWBOARD_TITLE = IS_CHINESE ? '单板滑雪' : 'Snowboard';
@@ -77,11 +78,12 @@ const RUN_TITLES = {
   HALF_MARATHON_RUN_TITLE,
   RUN_TITLE,
   TRAIL_RUN_TITLE,
-
+  TRACK_RUN_TITLE,
   RIDE_TITLE,
   INDOOR_RIDE_TITLE,
   VIRTUAL_RIDE_TITLE,
   HIKE_TITLE,
+  WALK_TITLE,
   ROWING_TITLE,
   KAYAKING_TITLE,
   SWIM_TITLE,
@@ -127,10 +129,11 @@ const red = 'rgb(255,0,0)';//大红色
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
+export const RUN_COLOR = green;
+export const RIDE_COLOR = yellow;
 export const VIRTUAL_RIDE_COLOR = veryPeri;
 export const HIKE_COLOR = pink;
+export const WALK_COLOR = veryPeri;
 export const SWIM_COLOR = gold;
 export const ROWING_COLOR = cyan;
 export const ROAD_TRIP_COLOR = purple;
@@ -140,3 +143,4 @@ export const COUNTRY_FILL_COLOR = wpink;
 export const KAYAKING_COLOR = red;
 export const SNOWBOARD_COLOR = wpink;
 export const TRAIL_RUN_COLOR = IKB;
+export const TRACK_RUN_COLOR = red;
