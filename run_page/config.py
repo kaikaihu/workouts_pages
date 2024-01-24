@@ -84,6 +84,8 @@ MAPPING_TYPE = [
     "Rowing",
     "Run",
     "Trail Run",
+    "Track Run",
+    "Walk",
     "Swim",
     "RoadTrip",
     "Kayaking",
