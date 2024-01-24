@@ -19,6 +19,8 @@ import {
   KAYAKING_COLOR,
   SNOWBOARD_COLOR,
   TRAIL_RUN_COLOR,
+  TRACK_RUN_COLOR,
+  WALK_COLOR,
 } from './const';
 import { FeatureCollection, LineString } from 'geojson';
 
@@ -204,6 +206,8 @@ const titleForType = (type: string): string => {
       return RUN_TITLES.HALF_MARATHON_RUN_TITLE;
     case 'Trail Run':
       return RUN_TITLES.TRAIL_RUN_TITLE;
+    case 'Track Run':
+      return RUN_TITLES.TRACK_RUN_TITLE;
     case 'Ride':
       return RUN_TITLES.RIDE_TITLE;
     case 'Indoor Ride':
@@ -212,6 +216,8 @@ const titleForType = (type: string): string => {
       return RUN_TITLES.VIRTUAL_RIDE_TITLE;
     case 'Hike':
       return RUN_TITLES.HIKE_TITLE;
+    case 'Walk':
+      return RUN_TITLES.WALK_TITLE;
     case 'Rowing':
       return RUN_TITLES.ROWING_TITLE;
     case 'Swim':
@@ -251,6 +257,14 @@ const typeForRun = (run: Activity): string => {
         return 'Half Marathon';
       }
       return 'Trail Run';
+    case 'Track Run':
+      if (distance >= 40) {
+        return 'Full Marathon';
+      }
+      else if (distance > 20) {
+        return 'Half Marathon';
+      }
+      return 'Track Run';
     case 'Ride':
       return 'Ride';
     case 'Indoor Ride':
@@ -259,6 +273,8 @@ const typeForRun = (run: Activity): string => {
       return 'Virtual Ride';
     case 'Hike':
       return 'Hike';
+    case 'Walk':
+      return 'Walk';
     case 'Rowing':
       return 'Rowing';
     case 'Swim':
@@ -280,7 +296,7 @@ const typeForRun = (run: Activity): string => {
 
 const titleForRun = (run: Activity): string => {
   const type = run.type;
-  if (type == 'Run' || type == 'Trail Run'){
+  if (type == 'Run' || type == 'Trail Run' || type == 'Track Run'){
       const runDistance = run.distance / 1000;
       if (runDistance >= 40) {
         return RUN_TITLES.FULL_MARATHON_RUN_TITLE;
@@ -298,6 +314,8 @@ const colorFromType = (workoutType: string): string => {
       return RUN_COLOR;
     case 'Trail Run':
       return TRAIL_RUN_COLOR;
+    case 'Track Run':
+      return TRACK_RUN_COLOR;
     case 'Ride':
     case 'Indoor Ride':
       return RIDE_COLOR;
@@ -305,6 +323,8 @@ const colorFromType = (workoutType: string): string => {
       return VIRTUAL_RIDE_COLOR;
     case 'Hike':
       return HIKE_COLOR;
+    case 'Walk':
+      return WALK_COLOR;
     case 'Rowing':
       return ROWING_COLOR;
     case 'Swim':
@@ -381,9 +401,9 @@ const filterTitleRuns = (run: Activity, title: string) =>
 const filterTypeRuns = (run: Activity, type: string) => {
   switch (type){
     case 'Full Marathon':
-      return (run.type === 'Run' || run.type === 'Trail Run') && run.distance > 40000
+      return (run.type === 'Run' || run.type === 'Trail Run' || run.type === 'Track Run') && run.distance > 40000
     case 'Half Marathon':
-      return (run.type === 'Run' || run.type === 'Trail Run') && run.distance < 40000 && run.distance > 20000
+      return (run.type === 'Run' || run.type === 'Trail Run' || run.type === 'Track Run') && run.distance < 40000 && run.distance > 20000
     default:
       return run.type === type
   }
