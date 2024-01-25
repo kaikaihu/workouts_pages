@@ -113,22 +113,21 @@ export {
   LIGHTS_ON,
 };
 
-const nike = 'rgb(224,237,94)';
-const yellow = 'rgb(224,237,94)';
-// 跑步徒步明快系 run/trail_run/track_run/hike/walk；
-const green = 'rgb(0,237,94)';
-const green1 = 'rgb(138,151,123)';
-const green2 = 'rgb(182,194,154)';
-const green3 = 'rgb(244,208,0)';
-const green4 = 'rgb(29,131,8)';
-const green5 = 'rgb(220,87,18)';
-// 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
-const pink1 = '#FF6666';
-const pink2 = '#FF9966';
-const pink3 = '#996699';
-const pink4 = '#FFCCCC';
 
-const cyan = 'rgb(112,243,255)';
+const nike = 'rgb(224,237,94)';
+// 跑步徒步明快系 run/trail_run/track_run/hike/walk；
+const green = '#4CAF50';
+const lime = '#CDDC39';
+const yello = '#FFC107';
+const amber = '#FFA000'
+const orange = '#F57C00';
+const deeporange = '#E64A19';
+const pink = '#E91E63';
+const red = '#F44336';
+const lightblue = '#03A9F4';
+const teal = '#009688';
+const cyan = '#00BCD4';
+
 const IKB = 'rgb(0,47,167)';
 const wpink = 'rgb(228,212,220)';
 const gold = 'rgb(242,190,69)';
@@ -136,26 +135,24 @@ const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
 const red = 'rgb(255,0,0)';//大红色
 
-
-
-// If your map has an offset please change this line
-// 跑步徒步绿色系 run/trail_run/track_run/hike/walk；
+//
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-
-export const RUN_COLOR = green1;
-export const TRAIL_RUN_COLOR = green2;
-export const TRACK_RUN_COLOR = green3;
-export const HIKE_COLOR = green4;
-export const WALK_COLOR = green5;
-// 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
-export const RIDE_COLOR = pink1;
-export const VIRTUAL_RIDE_COLOR = pink2;
-export const ROAD_TRIP_COLOR = pink3;
-export const SNOWBOARD_COLOR = pink4;
-//水上运动 
+// 常用  Run/ Track_run/Trail_run/Walk/Ride
+export const RUN_COLOR = green;
+export const TRAIL_RUN_COLOR = deeporange;
+export const TRACK_RUN_COLOR = lime;
+export const HIKE_COLOR = orage;
+export const WALK_COLOR = yello;
+export const RIDE_COLOR = pink;
+// 其他
+// 器械运动
+export const VIRTUAL_RIDE_COLOR = red;
+export const ROAD_TRIP_COLOR = cyan;
+export const SNOWBOARD_COLOR = teal;
+// 水上运动 
 export const SWIM_COLOR = gold;
-export const ROWING_COLOR = cyan;
+export const ROWING_COLOR = lightblue;
 export const KAYAKING_COLOR = red;
 // 其他
 export const FLIGHT_COLOR = wpink;
