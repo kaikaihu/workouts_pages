@@ -12,18 +12,18 @@ interface ISiteMetadataResult {
 
 const data: ISiteMetadataResult = {
   siteTitle: 'Workouts Map',
-  siteUrl: 'https://ben29.xyz',
+  siteUrl: 'https://kaikaihu.github.io/workouts_pages',
   logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
   description: 'Personal site and blog',
   keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
   navLinks: [
     {
       name: 'Blog',
-      url: 'https://ben29.xyz',
+      url: 'https://kaikaihu.github.io/workouts_pages',
     },
     {
       name: 'About',
-      url: 'https://github.com/ben-29/workouts_page/blob/master/README-CN.md',
+      url: 'https://kaikaihu.github.io/workouts_pages',
     },
   ],
 };
