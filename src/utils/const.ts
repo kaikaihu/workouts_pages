@@ -115,13 +115,13 @@ export {
 
 const nike = 'rgb(224,237,94)';
 const yellow = 'rgb(224,237,94)';
-// 跑步徒步绿色系 run/trail_run/track_run/hike/walk；
+// 跑步徒步明快系 run/trail_run/track_run/hike/walk；
 const green = 'rgb(0,237,94)';
-const green1 = '#339933';
-const green2 = '#339966';
-const green3 = '#99CC33';
-const green4 = '#669999';
-const green5 = '#CCFF66';
+const green1 = '#99CC00';
+const green2 = '#009999';
+const green3 = '#FF0033';
+const green4 = '#FFFF00';
+const green5 = '#FF6600';
 // 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
 const pink1 = '#FF6666';
 const pink2 = '#FF9966';
