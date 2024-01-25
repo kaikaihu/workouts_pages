@@ -146,7 +146,6 @@ export const RIDE_COLOR = pink;
 // 其他
 // 器械运动
 export const VIRTUAL_RIDE_COLOR = red;
-export const INDOOR_RIDE_COLOR = red;
 export const ROAD_TRIP_COLOR = cyan;
 export const SNOWBOARD_COLOR = teal;
 // 水上运动 
