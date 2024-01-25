@@ -127,13 +127,11 @@ const red = '#F44336';
 const lightblue = '#03A9F4';
 const teal = '#009688';
 const cyan = '#00BCD4';
-
 const IKB = 'rgb(0,47,167)';
 const wpink = 'rgb(228,212,220)';
 const gold = 'rgb(242,190,69)';
 const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
-const red = 'rgb(255,0,0)';//大红色
 
 //
 export const NEED_FIX_MAP = false;
