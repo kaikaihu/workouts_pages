@@ -119,7 +119,7 @@ const yellow = 'rgb(224,237,94)';
 const green = 'rgb(0,237,94)';
 const green1 = '#99CC00';
 const green2 = '#009999';
-const green3 = '#FF0033';
+const green3 = '#99CC99';
 const green4 = '#FFFF00';
 const green5 = '#FF6600';
 // 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
