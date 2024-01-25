@@ -115,8 +115,19 @@ export {
 
 const nike = 'rgb(224,237,94)';
 const yellow = 'rgb(224,237,94)';
+// 跑步徒步绿色系 run/trail_run/track_run/hike/walk；
 const green = 'rgb(0,237,94)';
-const pink = 'rgb(237,85,219)';
+const green1 = '#339933';
+const green2 = '#339966';
+const green3 = '#99CC33';
+const green4 = '#669999';
+const green5 = '#CCFF66';
+// 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
+const pink1 = '#FF6666';
+const pink2 = '#FF9966';
+const pink3 = '#996699';
+const pink4 = '#FFCCCC';
+
 const cyan = 'rgb(112,243,255)';
 const IKB = 'rgb(0,47,167)';
 const wpink = 'rgb(228,212,220)';
@@ -125,22 +136,29 @@ const purple = 'rgb(154,118,252)';
 const veryPeri = 'rgb(105,106,173)';//长春花蓝
 const red = 'rgb(255,0,0)';//大红色
 
+
+
 // If your map has an offset please change this line
-// issues #92 and #198
+// 跑步徒步绿色系 run/trail_run/track_run/hike/walk；
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-export const RUN_COLOR = green;
-export const RIDE_COLOR = yellow;
-export const VIRTUAL_RIDE_COLOR = veryPeri;
-export const HIKE_COLOR = pink;
-export const WALK_COLOR = veryPeri;
+
+export const RUN_COLOR = green1;
+export const TRAIL_RUN_COLOR = green2;
+export const TRACK_RUN_COLOR = green3;
+export const HIKE_COLOR = green4;
+export const WALK_COLOR = green5;
+// 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
+export const RIDE_COLOR = pink1;
+export const VIRTUAL_RIDE_COLOR = pink2;
+export const ROAD_TRIP_COLOR = pink3;
+export const SNOWBOARD_COLOR = pink4;
+//水上运动 
 export const SWIM_COLOR = gold;
 export const ROWING_COLOR = cyan;
-export const ROAD_TRIP_COLOR = purple;
+export const KAYAKING_COLOR = red;
+// 其他
 export const FLIGHT_COLOR = wpink;
 export const PROVINCE_FILL_COLOR = '#47b8e0';
 export const COUNTRY_FILL_COLOR = wpink;
-export const KAYAKING_COLOR = red;
-export const SNOWBOARD_COLOR = wpink;
-export const TRAIL_RUN_COLOR = IKB;
-export const TRACK_RUN_COLOR = red;
+
