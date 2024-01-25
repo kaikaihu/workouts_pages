@@ -140,12 +140,13 @@ export const MAIN_COLOR = green;
 export const RUN_COLOR = green;
 export const TRAIL_RUN_COLOR = deeporange;
 export const TRACK_RUN_COLOR = lime;
-export const HIKE_COLOR = orage;
+export const HIKE_COLOR = orange;
 export const WALK_COLOR = yello;
 export const RIDE_COLOR = pink;
 // 其他
 // 器械运动
 export const VIRTUAL_RIDE_COLOR = red;
+export const INDOOR_RIDE_COLOR = red;
 export const ROAD_TRIP_COLOR = cyan;
 export const SNOWBOARD_COLOR = teal;
 // 水上运动 
