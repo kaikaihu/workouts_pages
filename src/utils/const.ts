@@ -117,11 +117,11 @@ const nike = 'rgb(224,237,94)';
 const yellow = 'rgb(224,237,94)';
 // 跑步徒步明快系 run/trail_run/track_run/hike/walk；
 const green = 'rgb(0,237,94)';
-const green1 = '#99CC00';
-const green2 = '#009999';
-const green3 = '#99CC99';
-const green4 = '#FFFF00';
-const green5 = '#FF6600';
+const green1 = 'rgb(138,151,123)';
+const green2 = 'rgb(182,194,154)';
+const green3 = 'rgb(244,208,0)';
+const green4 = 'rgb(29,131,8)';
+const green5 = 'rgb(220,87,18)';
 // 骑行、滑雪粉色系 ride/virtual_ride/Road_Trip/Snowboard
 const pink1 = '#FF6666';
 const pink2 = '#FF9966';
